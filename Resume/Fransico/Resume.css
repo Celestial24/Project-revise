@@ -1,0 +1,185 @@
+*{
+
+margin: 0;
+padding: 0;
+}
+
+
+/*body of website*/  
+
+body{
+    background:linear-gradient(315deg,rgba(62, 176, 207, 0.791) 0%, rgba(16, 93, 166, 0.788)) ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+ /*Container*/  
+.Container{
+    position: relative;
+    width: 10px;
+    min-width: 1000px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.2);
+  
+}
+
+.Container-left{
+     position: relative;
+     background:linear-gradient(315deg,rgba(62, 207, 193, 0.791) 0%, blue) ; 
+     padding: 40px;
+}
+
+.about img{
+
+   width: 200px;
+   height: 200px;
+   border: 5px solid whitesmoke;
+}
+
+/*Contact information*/
+
+.about h4{
+   margin: 10px;
+   padding: 20px;
+  text-align: center;
+
+   color: whitesmoke;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.about h2{
+  color: whitesmoke;
+  font-size: 89%;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+/*EDUCATIONAL DESIGN*/
+
+.Ed-info h4{
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+   color: whitesmoke;
+}
+
+.Ed-info h3 {
+   margin: 20px;
+   padding: 10px;
+   color: whitesmoke;
+}
+
+.Ed-info .econ{
+  margin: 5px;
+}
+
+
+/*Expertise DESIGN*/
+
+.skills-info h4 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.skills-info h3 {
+   margin: 20px;
+   color: whitesmoke;
+}
+
+/*Language DESIGN*/
+
+.Language h4 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.Language h3 {
+   margin: 20px;
+   color: whitesmoke;
+}
+
+
+/*right DESIGN*/
+
+.contents{
+   margin: 20px;
+   padding: 20px; 
+
+}
+
+.Name{
+    font-size: 50px;
+    font-weight: bold;
+  ;
+    color: #3385ff;
+}
+
+.Course{
+     margin: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+
+ .Details{
+      padding: 10px;
+      margin: 20px;
+ }
+
+
+
+.Quali h3{
+   margin: 10px;
+   padding: 20px;
+   font-size: 25px;
+   text-transform: uppercase;
+   border-bottom: 5px solid black;
+}
+
+.Quali h4   {
+   padding: 10px;
+   margin: 10px;
+   text-transform: uppercase;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.Quali p   {
+   padding: 25px;
+   margin: 5px;
+   text-transform: uppercase;
+}
+
+
+.ref h1{
+   padding: 10px;
+   margin: 10px;
+   text-transform: uppercase;
+   border-bottom: 5px solid black;
+}
+
+
+.ref-child{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   margin: 40px;
+}
+
+.ref-child ul li{
+   list-style: none;
+   margin: 10px;
+}
+

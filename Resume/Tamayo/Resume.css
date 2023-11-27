@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+body{
+    
+    background:linear-gradient(315deg,rgba(62, 108, 207, 0.791) 0%, rgba(16, 93, 166, 0.788)) ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+/*Container*/
+   
+.Container{
+    position: relative;
+    width: 10px;
+    min-width: 1000px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.2);
+  
+}
+
+.Container-left{
+     position: relative;
+     background:linear-gradient(315deg,rgba(62, 207, 193, 0.791) 0%, blue) ; 
+     padding: 40px;
+  
+}
+
+
+/*About me*/
+
+.ABOUT-US img{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid whitesmoke;
+    border-radius: 5px;
+    
+}
+
+.ABOUT-US h4{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ABOUT-US p{
+    padding: 10px;
+    color: whitesmoke;
+
+}
+.ABOUT-US strong{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Educational background*/
+
+#Ed{
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+#Ed h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+} 
+
+#Ed p {
+    margin: 5px;
+    padding: 20px;
+}
+
+#Ed strong{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Expertise*/
+
+#exper {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+
+#exper  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+#exper p{
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Language*/
+
+
+#lang {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+
+#lang  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+
+#lang p{
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Right*/
+
+.More-inf{
+    padding: 10px;
+    margin: 10px;
+}
+
+.More-inf h1 {
+    padding: 10px;
+    margin: 10px;
+    color:  #3385ff;
+    font-family: t;
+}
+
+/*Qualification*/
+
+.More-Quali h1{
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-bottom :5px solid black;
+}
+
+.More-Quali h2{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.More-Quali p {
+    margin: 10px;
+    padding: 20px;
+}
+

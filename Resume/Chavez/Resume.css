@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+} 
+ 
+ 
+ 
+ body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(315deg,rgba(62, 176, 207, 0.791) 0%, rgba(16, 93, 166, 0.788)) ; 
+           
+ }
+
+ #container{
+    position: relative;
+    width: 10px;
+    min-width: 1000px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.2);
+  
+}
+
+.Container-left{
+     position: relative;
+     background:linear-gradient(315deg,rgba(62, 207, 193, 0.791) 0%, blue) ; 
+     padding: 40px;
+  
+}
+
+#content img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#content h2{
+    padding: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+}
+
+#content p {
+     padding: 10px;
+     color: whitesmoke;
+}
+
+#content strong{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#education{
+    margin: 10px;
+    padding: 10px;
+}
+
+#education h2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+#education h3{
+
+    margin: 4px;
+    color: whitesmoke;
+}
+
+#education p {
+     margin-top: 10px;
+     color: whitesmoke;
+}
+
+
+#education strong {
+     font-size: 20px;
+}
+
+#Expertise h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+} 
+
+
+#Expertise p{
+    margin: 10px;
+    color: whitesmoke;
+}
+
+#Language h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+} 
+
+#Language p{
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.me {
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.me h3 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color:#3385ff;
+
+}
+
+.me p {
+    margin: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}   
+
+#detials p {
+    margin: 10px;
+    padding: 10px;
+    text-transform:inherit;
+}
+
+
+.More-info h1{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+}
+
+
+.More-info h2{
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.More-info p{
+    margin: 10px;
+    padding: 12px;
+}
+
+.Ref-info{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+}
+
+#reference h2{
+     padding: 10px;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 5px solid black;
+    text-transform: uppercase;
+}
+
+#reference strong{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Container-reference{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+
+
+

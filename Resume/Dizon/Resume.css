@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+body{
+    
+     background:linear-gradient(315deg,rgba(62, 176, 207, 0.791) 0%, rgba(16, 93, 166, 0.788)) ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+/*Container*/
+   
+.Container{
+    position: relative;
+    width: 10px;
+    min-width: 1000px;
+    max-height: 100000px;
+    background-color: #FFF;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.2);
+  
+}
+
+.Container-left{
+     position: relative;
+     background:linear-gradient(315deg,rgba(14, 206, 186, 0.791) 0%, blue) ; 
+     padding: 40px;
+}
+
+
+/*left*/
+
+.Container-left img { 
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid whitesmoke;
+    border-radius: 4px;
+}
+
+/*Contact - information*/
+
+.IN h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.IN h3 {
+    margin: 15px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+
+/*Educational - information*/
+
+.Ed h1{
+     margin-top: 20px;
+    
+    text-transform: uppercase;
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Ed h2{
+    margin:5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+.Ed p {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+
+/*Expertise - information*/
+
+.Sk h1{
+    margin: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.Sk p {
+     padding: 10px;
+     color: whitesmoke;
+     text-transform: uppercase;
+}
+
+
+/*Language - information*/
+
+.Lang h2 {
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.Lang p {
+     padding: 10px;
+     text-transform: uppercase;
+     color: whitesmoke;
+}
+
+
+/*Right*/
+/*Me - information*/
+
+.about-us{
+    margin: 50px;
+    
+}
+
+.about-us h1{
+     font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3385ff;
+}
+
+.about-us h2{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+/* Details */
+
+.p {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+/* Qualification */
+
+.Q h1{
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-bottom :5px solid black;
+
+}
+
+.Q h2{
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Q p{
+    margin: 10px;
+    padding: 10px;
+}
+
+.number h1{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-bottom: 5px solid black;
+}
+
+.Ref-info{
+
+    padding: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.Ref-info ul li{
+    list-style: none;
+    margin: 10px;
+}
