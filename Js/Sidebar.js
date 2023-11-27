@@ -1,5 +1,5 @@
 const navBar = document.querySelector("nav");
-       menuBtns = document.querySelectorAll(".profile");
+       menuBtns = document.querySelectorAll(".menu-icon");
        overlay = document.querySelector("overlay");
 
      menuBtns.forEach((menuBtn) => {
